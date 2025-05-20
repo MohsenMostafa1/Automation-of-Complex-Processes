@@ -1,0 +1,26 @@
+repo_url: "https://github.com/your-org/your-ai-agent.git"
+branch: "main"
+build_command: "python setup.py build"
+test_command: "python -m pytest tests/"
+deploy_commands:
+  staging: "bash scripts/deploy_staging.sh"
+  production: "bash scripts/deploy_production.sh"
+health_check_urls:
+  staging: "https://staging.yourdomain.com/health"
+  production: "https://yourdomain.com/health"
+rollback_commands:
+  staging: "bash scripts/rollback_staging.sh"
+  production: "bash scripts/rollback_production.sh"
+required_checks:
+  - "cuda_check"
+  - "quantization_check"
+  - "function_calling_check"
+  - "rag_check"
+  - "retrieval_check"
+  - "safety_check"
+  - "human_eval_check"
+  - "optimization_check"
+  - "pre_tdd_check"
+notify_on_failure:
+  - "team@yourdomain.com"
+  - "slack:deployments-channel"
