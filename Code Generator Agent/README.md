@@ -1,4 +1,4 @@
-# AI Agent Quality Assurance: Your Safety Net Before Deployment
+# AI Agent Code Quality : Your Safety Net Before Deployment
 ## Why Quality Matters for AI Agents
                                                                 
 
