@@ -1,4 +1,4 @@
-# AI Agent Code Quality : Your Safety Net Before Deployment
+# Code Generator Agent: Your Safety Net Before Deployment
 ## Why Quality Matters for AI Agents
                                                                 
 
